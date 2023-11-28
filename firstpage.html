@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Alan Watkins" />
+    <meta name="description" content="First page of the ElectroMech Scheduled Service Planer web application" />
+    <title>ElectroMech - Scheduled Service Planner</title>
+
+    <link rel="icon" href="./imageFiles/cowicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./cssFiles/css_stylesheet.css" />
+
+    <script src="./jsFiles/firstpage.js"></script>
+
+
+</head>
+
+<body>
+    <!-- <form action="/url" method="GET"> -->
+
+    <div class="header-logo-wrap">
+        <div class="header-logo" itemscope="" itemtype="http://schema.org/Organization">
+            <a href="https://www.electromechagri.com/" target="_blank" rel="noopener noreferrer home" class="custom-logo-link" aria-current="page">
+                <img src="https://www.electromechagri.com/wp-content/uploads/2021/08/logo.svg" class="custom-logo"
+                     alt="Electromech Agri" decoding="async" />
+            </a>
+        </div>
+    </div>
+
+    <center>
+        <h2>
+            Scheduled Service Planner: <i><small>first page</small></i>
+        </h2>
+    </center>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="ireland">Northern Ireland</option>
+                        <option value="eire">Eire</option>
+                        <option value="england">England</option>
+                        <option value="wales">Wales</option>
+                        <option value="scotland">Scotland</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."
+    </p>
+
+    <br /><br />
+
+    <div class="dropdown">
+        <button type="button" onclick="myFunction()" class="dropbtn">
+            Useful Websites
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="https://www.electromechagri.com" target="_blank" rel="noopener noreferrer">ElectroMech Agri</a>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+            <a href="https://www.amazon.co.uk" target="_blank" rel="noopener noreferrer">Amazon</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </div>
+
+    <a href="./secondpage.html" class="anybuttonR">Next Page »</a>
+
+</body>
+
+</html>

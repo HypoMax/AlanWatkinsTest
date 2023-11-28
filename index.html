@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-GB">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Alan Watkins" />
+    <meta name="description" content="ElectroMech Agri login form" />
+    <title>ElectroMech Login</title>
+
+    <link rel="icon" href="./imageFiles/cowicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./cssFiles/login_stylesheet.css" />
+</head>
+
+<body onload="document.loginform.reset();">
+    <div>
+        <div>
+            <a href="https://www.electromechagri.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.electromechagri.com/wp-content/uploads/2021/08/logo.svg" class="logo-center"
+                     alt="Electromech Agri" decoding="async" />
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <form id="loginform" class="modal-content animate" action="https://hypomax.github.io/AlanWatkinsTest/firstpage.html"
+              method="get">
+            <div class="imgcontainer">
+                <img src="./imageFiles/ElectroMechCow.png" alt="EMcow" class="emcow" />
+
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required="" />
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required="" />
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" />
+                    Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color: #f1f1f1">
+                <input type="reset" value="Cancel" class="cancelbtn" />
+
+                <span class="psw">
+                    Forgot
+                    <a href="https://hypomax.github.io/AlanWatkinsTest/">password?</a>
+                </span>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+</html>
